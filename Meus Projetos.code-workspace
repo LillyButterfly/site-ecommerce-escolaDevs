@@ -1,0 +1,76 @@
+{
+	"folders": [
+		{
+			"path": "../MissaoProgramador"
+		},
+		{
+			"path": "../DevEmDobro"
+		},
+		{
+			"path": "../HairStalist"
+		},
+		{
+			"path": "../iFoodDIO"
+		},
+		{
+			"path": "../InstagramLoginPage"
+		},
+		{
+			"path": "../LeafContabil"
+		},
+		{
+			"path": "../Lovet"
+		},
+		{
+			"path": "../MaratonaExplorer"
+		},
+		{
+			"path": "../MaratonaExplorer3.0"
+		},
+		{
+			"path": "../MissaoInstagram"
+		},
+		{
+			"path": "../PicPro"
+		},
+		{
+			"path": "../pokemon-slider"
+		},
+		{
+			"path": "../projetobkdev-main"
+		},
+		{
+			"path": "../PtiJS"
+		},
+		{
+			"path": "../PtiWebStandards"
+		},
+		{
+			"path": "../Quick Staart"
+		},
+		{
+			"path": "../SemanaFront-End-DIO"
+		},
+		{
+			"path": "../semana-frontend-mundo-invertido-feat-integracao-firebase"
+		},
+		{
+			"path": "../SenacScript"
+		},
+		{
+			"path": "../SirBarber"
+		},
+		{
+			"path": "../SiteCambio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../ToDoList"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "siteEcommerceEscolaDevs"
+	}
+}

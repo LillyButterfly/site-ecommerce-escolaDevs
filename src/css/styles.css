@@ -1,0 +1,379 @@
+/*trocar medidas para rem
+fazer variaves de cor*/
+
+/*LUPA*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*USER*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 000000,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*HEART*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*SHOPPING CART*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+button {
+    border: none;
+    color: #fff;
+    padding: 0.625rem;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.produto-comprar button:hover {
+    cursor: pointer;
+    background-color: #008000;
+}
+
+input[type=text] {
+    padding: 0.75rem 1.25rem;
+    margin:0.5rem 0;
+    background: #fff;
+    border: none;
+    border-radius: 0.188rem;
+    font-size: 1.125rem;
+}
+
+label{
+    font-size: 0.75rem;
+    color: 	#808080;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+}
+
+.cabecalho {
+    width: 100%;
+    min-height: 7.5rem;
+    background-color: #885FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.938rem 1.25rem 0.625rem 1.25rem;
+    margin: 0 auto;
+}
+
+.banner img {
+
+    max-width: 18.75rem;
+    max-height: 4.938rem;
+}
+
+.busca {
+    background-color: #fff;
+    width: 37.5rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.busca input {   
+    max-width: 31.25rem;
+    max-height: 2.5rem;
+}
+
+.busca button {
+    background: transparent;
+}
+
+
+.icons {
+    width: 31.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons button {
+    background: transparent;
+}
+
+#icons-style{
+    font-size: 1.75rem;
+    color: #000;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+
+}
+
+.login-text {
+    margin-left: 0.5rem;
+    width: 9.375rem;
+}
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.icones-heart-cart {
+    width: 8.125rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu {
+    background-color: #5215FC;
+}
+.ul-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-menu a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.875rem 1rem;
+}
+
+.lista-menu:hover {
+    background-color: #280886;
+}
+
+.texto-promocao {
+    background-color: #12043E;
+    padding: 1rem;
+    text-align: center;
+}
+
+.texto-promocao h1 {
+    color: #fff;
+    background: none;
+    animation: animacaoTexto 1.5s linear infinite;
+}
+
+.slider{
+    margin: 0 auto;
+    max-width: 62.5rem;
+    max-height: 37rem;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides input {
+    display: none
+}
+
+.slide img {
+    position: relative;
+    max-width: 62.5rem;
+    max-height: 36.563rem;
+}
+
+.manual-navigation {
+    position: relative;
+    width: 62.5rem;
+    margin: -2.25rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 0.125rem solid #fff;
+    border-radius: 0.625rem;
+    padding: 0.313rem;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 2.5rem;
+}
+
+.manual-btn:hover {
+    background-color:#fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -300%;
+}
+
+.navigation-auto div {
+    border: 0.125rem solid #20A6FF;
+    padding: 0.313rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+   position: absolute;
+   width: 62.5rem;
+   margin: 33.125rem 0 1rem 0;
+   display: flex;
+   justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #fff;
+}
+
+.conteudo-produtos {
+    margin: 1.875rem auto;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    max-width: 100%;
+}
+
+.produto {
+    width: 35%;
+    padding: 1.25rem;
+}
+
+.produto:hover {
+    box-shadow: 0rem 0rem 0.625rem 0.625rem #C0C0C0;
+    border-radius: 1.25rem;
+}
+
+.produto-nome {
+    text-align: center;
+    padding: 0.313rem;
+}
+
+.produto-imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.produto-imagem img {
+   width: 40%;
+}
+
+.produto-descricao {
+    padding: 0.625rem;
+    text-align: justify;
+}
+
+.produto-descricao p {
+    font-size: 1rem;
+    margin: 0;
+    color: #000;
+    height: 9.375rem;
+    overflow: hidden;
+}
+
+.produto-preco {
+    text-align: center;
+    background: #5215FC;
+    padding: 0.625rem;
+    border-radius: 0.875rem;
+}
+
+.produto-preco p {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.produto-comprar {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.produto-comprar button {
+    background-color: #32CD32;
+}
+
+.texto-promocao-2 {
+    margin-top: 0.625rem;
+}
+
+.rodape {
+    height: 7.5rem;
+    background-color: #885FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.social-medias {
+    padding-left: 0.625rem;
+}
+
+@keyframes animacaoTexto {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0;
+    }
+}
